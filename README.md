@@ -57,8 +57,9 @@ I used ```border-box``` to keep the css elegant, and also used ```media``` and `
 For interactivity, I wrote ```onload```, ```click```, ```scroll```, ```mouseover/mouseout```, ```onkeypress```functions in ```sketch.js```. However, there was no place to use  ```scroll```, ```mouseover/mouseout```, ```onkeypress``` in the website, so I just annotated them.<br />
 
 <h2> Supportive Interaction</h2>
-Currently, the website only supported limited interaction. See the instruction below.
-![instruction](pictures/useful.png)
+
+Currently, the website only supported limited interaction. See the instruction below.<br />
+![visual design](pictures/useful.png)
 <br />
 
 <h2> Deployment</h2>
