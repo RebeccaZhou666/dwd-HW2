@@ -603,6 +603,7 @@ input.button_1 {
   .container {
     padding-right: 20px;
     padding-left: 20px;
+    flex-direction: column;
   }
 }
 
@@ -626,6 +627,9 @@ input.button_1 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #c4c4c4;
+  }
+  .container {
+    flex-direction: column;
   }
 }
 
