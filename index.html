@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NYCool</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="description" content="A website providing events in NYC">
+  <link href="public/css/normalize.css" rel="stylesheet" type="text/css">
+  <!-- <link href="css/webflow.css" rel="stylesheet" type="text/css"> -->
+  <link href="public/css/nycool.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <link href="public/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+  <nav id="nav" class="sticky-nav">
+    <ul class="nav-grid list-unstyled">
+      <li>
+        <a href="#" class="nav-logo-link inline-block">
+          <img src="public/images/logo.png" height="40" srcset="public/images/logo.png 500w, images/logo.png 600w" sizes="(max-width: 480px) 115px, (max-width: 767px) 100vw, 120px" alt="" class="nav-logo">
+        </a>
+      </li>
+      <li >
+        <form action="/search" class="search form_1">
+          <input type="search" class="search-input input" maxlength="256" name="query" placeholder="Search…" id="search" required="">
+          <input type="submit" value="Search" class="search-button button_1">
+        </form>
+      </li>
+      <li ><a id="nav-events" href="#" class="nav-link">Events</a></li>
+      <li><a href="#" class="nav-link">About</a></li>
+      <li><a href="#" class="button button_1">Sign In</a></li>
+    </ul>
+  </nav>
+  <div class="section">
+    <div class="container container_add">
+      <div class="featured-wrapper">
+        <div>
+          <h5 class="heading">Trends</h5>
+          <h1 class="heading-2">Unique Museums</h1>
+          <p class="paragraph">You have heard about the Guggenheim and the Metropolitan Museum of Modern Arts, but there are so many more New York museums to explore! For an experience you can&#x27;t find anywhere else, visit the <strong>Corning Museum of Glass </strong>to see where a young Thomas Edison had his first light bulbs hand-blown or the where interactive exhibits reveal the science of fun. See large-scale modern art created for the vast rooms of , a former box-printing factory.</p>
+          <a id = "button-outside" href="https://www.iloveny.com/things-to-do/museums/" class="button-2 button_1">See More</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="divided-line"></div>
+  <div>
+    <div class="container-3 container_add">
+      <h2 id="event-section" class="heading-3 section2-title">All Events</h2>
+      <div class="layout-grid-add grid">
+        <div id="list-1" class="list-wrapper">
+          <div class="list-image-wrapper">
+            <img src="public/images/black-history.jpeg" width="422" srcset="public/images/black-history.jpeg 800w, images/black-history.jpeg 1080w" sizes="300px" alt="" class="image">
+          </div>
+          <div class="text-wrapper">
+            <h5 class="heading-5">Tue, Feb 20, 6:30 PM - 8:30 PM</h5>
+            <h4 class="heading-6">Illuminating Forgotten Histories: New York City&#x27;s Early Black Communities.</h4>
+            <p class="place">Schomburg Center For Research In Black Culture · New York, 10037</p>
+          </div>
+          <div class="space"></div>
+        </div>
+        <div class="list-wrapper">
+          <div class="list-image-wrapper">
+            <img src="public/images/beer-food.jpeg" width="422" srcset="public/images/beer-food.jpeg 500w, images/beer-food.jpeg 800w, images/beer-food.jpeg 1080w" sizes="300px" alt="" class="image">
+          </div>
+          <div class="text-wrapper">
+            <h5 class="heading-5">Sat, Feb 22, 12:00 PM</h5>
+            <h4 class="heading-6">2020 NYC Beer Week Opening Bash.</h4>
+            <p class="place">Brooklyn EXPO Center · Brooklyn, 11222</p>
+          </div>
+          <div class="space"></div>
+        </div>
+        <div class="list-wrapper">
+          <div class="list-image-wrapper">
+            <img src="public/images/ice-nature.jpg" width="422" srcset="public/images/ice-nature.jpg 500w, images/ice-nature.jpg 1080w, images/ice-nature.jpg 1440w" sizes="300px" alt="" class="image">
+          </div>
+          <div class="text-wrapper">
+            <h5 class="heading-5">Jan 31 - Feb 9</h5>
+            <h4 class="heading-6">Saranac Lake Winter Carnival.</h4>
+            <p class="place">River Street, Saranac Lake · NY, 12983</p>
+          </div>
+          <div class="space"></div>
+        </div>
+        <div class="list-wrapper">
+          <div class="list-image-wrapper">
+            <img src="public/images/broadway-art.jpg" width="422" srcset="public/images/broadway-art.jpg 500w, images/broadway-art.jpg 800w, images/broadway-art.jpg 1600w, images/broadway-art.jpg 2000w, images/broadway-art.jpg 2600w, images/broadway-art.jpg 3030w" sizes="300px" alt="" class="image">
+          </div>
+          <div class="text-wrapper">
+            <h5 class="heading-5">Feb 10 - Feb 23</h5>
+            <h4 class="heading-6">NYC Off-Broadway Week.</h4>
+            <p class="place">Various Location· New York</p>
+          </div>
+          <div class="space"></div>
+        </div>
+        <div class="list-wrapper">
+          <div class="list-image-wrapper">
+            <img src="public/images/festival.jpeg" width="422" srcset="public/images/festival.jpeg 500w, images/festival.jpeg 800w, images/festival.jpeg 1080w" sizes="300px" alt="" class="image">
+          </div>
+          <div class="text-wrapper">
+            <h5 class="heading-5">Sat, Mar 21, All Day</h5>
+            <h4 class="heading-6">Coffee &amp; Tea Festival NYC.</h4>
+            <p class="place">Brooklyn EXPO Center · Brooklyn, 11222</p>
+          </div>
+          <div class="space"></div>
+        </div>
+        <div class="list-wrapper">
+          <div class="list-image-wrapper">
+            <img src="public/images/time.jpeg" width="422" srcset="public/images/time.jpeg 500w, images/time.jpeg 800w, images/time.jpeg 1080w" sizes="300px" alt="" class="image">
+          </div>
+          <div class="text-wrapper">
+            <h5 class="heading-5">Sat, Feb 15, 10:00 PM – Sun, Feb 16, 4:00 AM</h5>
+            <h4 class="heading-6">SATURDAY NIGHT PARTY | Sky Room NYC Tallest Rooftop Bar Lounge Times Square.</h4>
+            <p class="place">SKY ROOM330 WEST 40TH STREET · New York, 10032</p>
+          </div>
+          <div class="space"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="big-spacing"></div>
+  <div class="footer">
+    <div class="container-2 container_add">
+      <div class="form-block form-add">
+        <form id="email-form" name="email-form" data-name="Email Form" class="form">
+          <label for="name" class="field-label">Newsletter Sign Up</label>
+          <div class="div-block-3"><input type="text" class="text-field input-add" maxlength="256" name="name" data-name="Name" placeholder="Email Address" id="name">
+            <input type="submit" value="Subscribe " data-wait="Please wait..." class="submit-button button_1">
+          </div>
+        </form>
+        <div class="form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+      <div class="footer-text">
+        <h6 class="heading-7">NYCool</h6>
+        <p class="paragraph-3">Terms &amp; Conditions<br>‍<br>© 2020 Rebecca Zhou<br>All rights Reserved</p>
+      </div>
+      <div class="footer-text">
+        <h6 class="heading-7">Find Events In NYC</h6>
+        <p class="paragraph-3">Art<br>History<br>Festival<br>Expos<br>Shows / Sales<br>Nature</p>
+      </div>
+      <div class="footer-text">
+        <h6 class="heading-7">Connect With Us</h6>
+        <p class="paragraph-3">Contact Support<br>Twitter<br>Facebook<br>LinkedIn<br>Instagram</p>
+      </div>
+    </div>
+  </div>
+  <script src="public/js/sketch.js" type="text/javascript"></script>
+</body>
+</html>
